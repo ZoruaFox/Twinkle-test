@@ -1,0 +1,67 @@
+/* Twinkle.js - twinkle.css */
+
+/**
+ * Explicitly set width of TW menu so that we can use a hidden peer gadget
+ * to add space where the TW menu would go before it loads.
+ * See twinkle-pagestyles.css
+ */
+.skin-vector .vector-menu-dropdown #p-twinkle {
+	width: 3.24em;
+}
+
+.skin-citizen #p-twinkle h3 {
+	display: block;
+	padding: 0.75em 1.25em;
+	margin: 0;
+	color: #54595d;
+	font-family: sans-serif;
+	font-size: 0.8em;
+	font-weight: normal;
+	letter-spacing: 0.05em;
+}
+
+/**
+ * In skin vector-2022, open the TW menu when mouse hovers over it.
+ * Credit to [[enwiki:User:Nardog]] for this fix.
+ */
+#p-twinkle:hover > .vector-menu-content {
+	height: auto;
+	opacity: 1;
+	visibility: visible;
+}
+
+/* twinkleclose.js */
+a.twinkle-close-button {
+	color: #f00;
+	font-weight: bold;
+}
+
+a.twinkle-close-button-disabled {
+	color: #808080;
+}
+
+/* The additional box on user skin.js and twinklepreferences.js pages */
+#twinkle-config-headerbox {
+	padding: 0.6em;
+	border: 1px #f60 solid;
+	margin: 0.5em auto;
+	background: #fed;
+	text-align: center;
+}
+
+/* twinkleoptions.js */
+#twinkle-config-headerbox.config-twopt-box {
+	width: 80%;
+	border-width: 2px;
+	font-weight: bold;
+}
+
+/* Skin-specific JS */
+#twinkle-config-headerbox.config-userskin-box {
+	width: 60%;
+}
+
+/* [[H:TW/PREF]] */
+#twinkle-config-content input[type='checkbox'] {
+	margin-right: 2px;
+}

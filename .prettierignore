@@ -1,0 +1,5 @@
+dist/
+scripts/
+src/select2/
+pnpm-lock.yaml
+*.md

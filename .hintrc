@@ -1,0 +1,13 @@
+{
+	"extends": [
+	  "development"
+	],
+	"browserslist": [
+	  "defaults",
+	  "not ie < 11",
+	  "not op_mini all"
+	],
+	"hints": {
+	  "detect-css-reflows/layout": "off"
+	}
+  }
