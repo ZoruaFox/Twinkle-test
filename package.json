@@ -33,7 +33,7 @@
 		"babel-plugin-array-includes": "^2.0.3",
 		"babel-plugin-transform-object-hasown": "^1.1.0",
 		"chalk": "^5.3.0",
-		"core-js": "^3.31.0",
+		"core-js": "^3.32.1",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-config-wikimedia": "^0.25.1",
 		"git-commit-msg-linter": "^5.0.4",
