@@ -41,7 +41,7 @@
 		"mwn": "^1.11.5",
 		"prettier": "^2.8.8",
 		"prompts": "^2.4.2",
-		"stylelint": "^15.10.0",
+		"stylelint": "^16.0.0",
 		"stylelint-config-idiomatic-order": "^9.0.0",
 		"stylelint-config-standard": "^33.0.0",
 		"types-mediawiki": "github:AnYiEE/types-mediawiki",
